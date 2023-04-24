@@ -83,7 +83,7 @@
   <div class="flex flex-col w-full px-0 items-center h-full">
 	<div class="chat-container w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 	  <div class="flex flex-col gap-2">
-		<ChatMessage type="assistant" message="What do you want!" />
+		<ChatMessage type="assistant" message="Saluti! I am Galileo Galilei, the astronomer who revolutionized our understanding of the cosmos. Let's gaze at the stars and ponder the mysteries of the universe!" />
 		{#each chatMessages as message}
 		  <ChatMessage type={message.role} message={message.content} />
 		{/each}
